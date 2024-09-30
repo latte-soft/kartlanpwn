@@ -3,7 +3,7 @@
 [badges/latte]: https://img.shields.io/badge/https%3A%2F%2Flatte.to-2980b9?style=flat
 [badges/discord]: https://img.shields.io/discord/892211155303538748?label=Latte%20Softworks%20Discord&logo=discord&logoColor=FFFFFF&color=5865F2
 
-# Kart"LAN"Pwn ([CVE-2024-45200](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45200))
+# Kart"LAN"Pwn ([CVE-2024-45200](https://nvd.nist.gov/vuln/detail/CVE-2024-45200))
 
 [![Latte Softworks Website][badges/latte]][latte] [![Latte Softworks Discord][badges/discord]][discord]
 
