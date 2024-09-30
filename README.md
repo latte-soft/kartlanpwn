@@ -42,7 +42,7 @@ Written by [@regginator](https://github.com/regginator)
 
 ### Background Information
 
-KartLANPwn is a vulnerability in Mario Kart 8 Deluxe's **incorrect usage** of the [`Pia`](https://github.com/kinnay/NintendoClients/wiki/Pia-Overview) P2P networking library, in which implementations of "[`CopyAppData`](#lan_copyappdata-pseudocode)" are sometimes called with an `outBufSize` larger than the `out` buffer itself. This can potentially lead to user-mode remote code execution (RCE) on peers' consoles if chained with an info leak. KartLANPwn affects the usage of `Pia`'s implementations of **LAN/LDN** multiplayer and **NEX** online multiplayer.
+KartLANPwn is a vulnerability in Mario Kart 8 Deluxe's **incorrect usage** of the [`Pia`](https://github.com/kinnay/NintendoClients/wiki/Pia-Overview) P2P networking library, in which individual implementations of "[`CopyAppData`](#lan_copyappdata-pseudocode)" are sometimes called with an `outBufSize` larger than the `out` buffer itself. This can potentially lead to user-mode remote code execution (RCE) on peers' consoles if chained with an info leak. KartLANPwn affects the usage of `Pia`'s implementations of **LAN/LDN** multiplayer and **NEX** online multiplayer.
 
 This vulnerability affects **all** versions of Mario Kart 8 Deluxe up to and including **v3.0.1** *(v3.0.2 for China/Tencent)*, and has specifically been [demonstrated](#demonstration-of-poc) via the "LAN Play" feature on the v3.0.1 retail release of MK8DX.
 
