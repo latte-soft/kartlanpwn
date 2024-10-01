@@ -15,7 +15,7 @@ Written by [@regginator](https://github.com/regginator)
 |    |    |
 | :- | :- | 
 | CVE            | **CVE-2024-45200** |
-| CVSS 3.1       | **Undetermined** *<sub>(4.3/10 According to **[Nintendo](https://hackerone.com/reports/2611669)**..)</sub>* |
+| CVSS 3.1       | **Undetermined** *<sub>(**[Nintendo](https://hackerone.com/reports/2611669)**..) claims it's a 4.3/10</sub>* |
 | Bounty Paid    | **$512** |
 | H1 Report      | **[#2611669](https://hackerone.com/reports/2611669)** |
 | Discovered     | **July 2nd, 2024** |
