@@ -10,9 +10,6 @@
 Information & Proof-of-Concept for Mario Kart 8 Deluxe's "KartLANPwn" stack-based buffer overflow vulnerability<br>
 Written by [@regginator](https://github.com/regginator)
 
-> [!NOTE]
-> CVE-2024-45200 is currently pending being published!
-
 <div align="center">
 
 |    |    |
@@ -156,7 +153,7 @@ Nintendo most definitely learned their lesson per se from the simpler days of th
 | **2024/09/12** | Other researchers [quite quickly found out](https://x.com/OatmealDome/status/1834350565544824979) about the fix for "`a security flaw in the game's netcode`" in the bindiff for v3.0.3 |
 | **2024/09/27** | Mario Kart 8 Deluxe v3.0.3 released for the Chinese region |
 | **2024/09/29** | Nintendo granted disclosure, this repository made public |
-| **2024/??/??** | CVE-2024-45200 [published](https://nvd.nist.gov/vuln/detail/CVE-2024-45200) by the NVD |
+| **2024/09/30** | CVE-2024-45200 [published](https://nvd.nist.gov/vuln/detail/CVE-2024-45200) by the NVD |
 
 ## License
 
